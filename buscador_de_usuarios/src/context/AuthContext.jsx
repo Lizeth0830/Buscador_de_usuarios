@@ -14,8 +14,8 @@ export function AuthProvider({ children }) {
     setError("")
 
     setTimeout(() => { // simulamos validación con delay
-      if (username === "Santiago" && password === "160804") {
-        setUser({ username: "Santiago" })
+      if (username === "Lizeth" && password === "121212") {
+        setUser({ username: "Lizeth" })
         navigate("/usuarios")
       } else {
         setError("Contraseña inválida ❌")

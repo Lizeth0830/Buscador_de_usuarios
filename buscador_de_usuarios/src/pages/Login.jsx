@@ -15,7 +15,7 @@ export default function Login() {
     <div className="flex flex-col items-center mt-10">
       <form onSubmit={handleSubmit} 
             className="flex flex-col gap-4 max-w-sm w-full bg-purple-100 p-6 rounded-xl shadow-lg">
-        <h2 className="text-2xl font-bold text-center text-purple-700">Inicio de Sesion Lindo</h2>
+        <h2 className="text-2xl font-bold text-center text-purple-700">Inicio Sesion</h2>
 
         <label className="font-semibold text-gray-700" htmlFor="username">Nombre:</label>
         <input 
